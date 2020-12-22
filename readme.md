@@ -1,4 +1,4 @@
-# Hydrodynamics physics project by first-year students of the Department of Physics and Engineering. Source code.
+# Hydrodynamic phenomena. The physics project by first-year students of the ITMO University. Source code.
 
 This code was developed in the Visual Studio Code environment with the PlatformIO extention.
 ____
