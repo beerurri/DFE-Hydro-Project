@@ -1,0 +1,197 @@
+html{
+    background-color: rgb(44, 19, 19);
+    padding-bottom: 130px;
+}
+
+.pressure_div{
+    float: left; /*Задаем обтекание*/
+    line-height: 60px;/*Высота строки +  верт. центрирования текста*/
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: rgb(0, 39, 82);
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    width: 24%; /*Фиксируем ширину блока*/
+    margin-right: 10px;
+    text-align: center; /*Центрируем текст по горизонтали*/
+}
+
+.speed_div{
+    float: left; /*Задаем обтекание*/
+    line-height: 60px;/*Высота строки +  верт. центрирования текста*/
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: rgb(134, 144, 155);
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    width: 24%; /*Фиксируем ширину блока*/
+    margin-right: 10px;
+    text-align: center; /*Центрируем текст по горизонтали*/
+}
+#XLs{
+    background:rgb(122, 124, 0);
+}
+#Ls{
+    background:rgb(122, 124, 0);
+}
+#Ms{
+    background:rgb(122, 124, 0);
+}
+#Ss{
+    background:rgb(122, 124, 0);
+}
+.buttonVenturi{
+    float: left; /*Задаем обтекание*/
+    line-height: 120px;/*Высота строки +  верт. центрирования текста*/
+    font-size: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: rgba(217, 255, 0, 0.274);
+    color: rgb(255, 255, 255);
+    /* margin-top: 60px; */
+    width: 24%; /*Фиксируем ширину блока*/
+    margin-right: 10px;
+    text-align: center; /*Центрируем текст по горизонтали*/
+    position: absolute;
+    top: 1%;
+    right: 0px;
+    z-index: 101;
+    outline: none;
+}
+.buttonMagnus{
+    float: left; /*Задаем обтекание*/
+    line-height: 120px;/*Высота строки +  верт. центрирования текста*/
+    font-size: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: rgba(217, 255, 0, 0.274);
+    color: rgb(255, 255, 255);
+    margin-top: 60px;
+    width: 24%; /*Фиксируем ширину блока*/
+    margin-right: 10px;
+    text-align: center; /*Центрируем текст по горизонтали*/
+    position: fixed;
+    left: 26%;
+    bottom: 130px;
+    z-index: 101;
+    outline: none;
+}
+.buttonDownloadLog{
+    float: left; /*Задаем обтекание*/
+    line-height: 80px;/*Высота строки +  верт. центрирования текста*/
+    font-size: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: rgba(217, 255, 0, 0.274);
+    color: rgb(255, 255, 255);
+    margin-top: 60px;
+    width: 24%; /*Фиксируем ширину блока*/
+    margin-right: 10px;
+    text-align: center; /*Центрируем текст по горизонтали*/
+    position: absolute;
+    top: 134px;
+    right: 0px;
+    z-index: 101;
+    outline: none;
+}
+.buttonDownloadLog:hover{
+    background: rgb(119, 36, 33);
+}
+.buttonVenturi:hover{
+    background: rgb(119, 36, 33);
+}
+.buttonMagnus:hover{
+    background: rgb(119, 36, 33);
+}
+/* #XLspeed{
+    margin-bottom: 130px;
+} */
+.buttonCalibration{
+    float: left; /*Задаем обтекание*/
+    line-height: 80px;/*Высота строки +  верт. центрирования текста*/
+    font-size: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: rgba(217, 255, 0, 0.274);
+    color: rgb(255, 255, 255);
+    /* margin-top: 60px; */
+    width: 24%; /*Фиксируем ширину блока*/
+    margin-right: 10px;
+    text-align: center; /*Центрируем текст по горизонтали*/
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    z-index: 101;
+    outline: none;
+}
+.buttonCalibration:hover{
+    background: rgb(119, 36, 33);
+}
+.buttonCalibrationWEB{
+    float: left; /*Задаем обтекание*/
+    line-height: 80px;/*Высота строки +  верт. центрирования текста*/
+    font-size: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: rgba(217, 255, 0, 0.274);
+    color: rgb(255, 255, 255);
+    /* margin-top: 60px; */
+    width: 24%; /*Фиксируем ширину блока*/
+    margin-right: 10px;
+    text-align: center; /*Центрируем текст по горизонтали*/
+    position: absolute;
+    top: 1%;
+    right: 0px;
+    z-index: 101;
+    outline: none;
+}
+.buttonCalibrationWEB:hover{
+    background: rgb(119, 36, 33);
+}
+#logInfo{
+    padding: 2px;
+    width: 100%;
+    position: fixed;
+    background: rgb(0, 0, 0);
+    color: rgb(0, 255, 0);
+    bottom: 0px;
+    z-index: 101;
+    height: 120px;
+    left: 0px;
+    /* border: solid rgb(0, 0, 0) 2px; */
+}
+.motorStart{
+    float: left; /*Задаем обтекание*/
+    line-height: 80px;/*Высота строки +  верт. центрирования текста*/
+    font-size: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: rgba(217, 255, 0, 0.274);
+    color: rgb(255, 255, 255);
+    /* margin-top: 60px; */
+    width: 24%; /*Фиксируем ширину блока*/
+    margin-right: 10px;
+    text-align: center; /*Центрируем текст по горизонтали*/
+    position: absolute;
+    top: 288px;
+    right: 0px;
+    z-index: 101;
+    outline: none;
+}
+.motorStart:hover{
+    background: rgb(119, 36, 33);
+}
+.motorStop{
+    float: left; /*Задаем обтекание*/
+    line-height: 80px;/*Высота строки +  верт. центрирования текста*/
+    font-size: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: rgba(217, 255, 0, 0.274);
+    color: rgb(255, 255, 255);
+    /* margin-top: 60px; */
+    width: 24%; /*Фиксируем ширину блока*/
+    margin-right: 10px;
+    text-align: center; /*Центрируем текст по горизонтали*/
+    position: absolute;
+    top: 383px;
+    right: 0px;
+    z-index: 101;
+    outline: none;
+}
+.motorStop:hover{
+    background: rgb(119, 36, 33);
+}

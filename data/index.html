@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>ESP32 Web Server</title>
+  <link rel="icon" href="favicon.svg" type="image/x-icon" />
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+</head>
+
+<body>
+  <!-- <button onclick="show_main()">Main</button> -->
+  <!-- <button class="buttonVenturi" onclick="showVenturi()">Venturi</button> -->
+  <!-- <button class="buttonMagnus" onclick="showMagnus()">Magnus</button> -->
+  <button class="buttonDownloadLog" onclick="downloadLog()">Download log</button>
+  <button class="buttonCalibration" onclick="calibration()">Calibration</button>
+  <button class="buttonCalibrationWEB" onclick="calibrationWEB()">Zero speeds</button>
+  <button class="motorStart" onclick="motorStart()">Start motor</button>
+  <button class="motorStop" onclick="motorStop()">Stop motor</button>
+  <!-- <br /> -->
+
+  <div id="venturi" style="display: block;">
+    <div id="logInfo">log info...</div>
+    <div id="pressures" style="width: 75%; height: 600px;"></div>
+    <br />
+    <div id="speeds" style="width: 75%; height: 600px;"></div>
+    <br />
+    <div id="bar" style="width: 75%; height: 600px;"></div>
+    <div class="pressure_div" id="XLs"></div>
+    <div class="pressure_div" id="XLd"></div>
+    <div class="pressure_div" id="Ls"></div>
+    <div class="pressure_div" id="Ld"></div>
+    <div class="pressure_div" id="Ms"></div>
+    <div class="pressure_div" id="Md"></div>
+    <div class="pressure_div" id="Ss"></div>
+    <div class="pressure_div" id="Sd"></div>
+    <div class="speed_div" id="XLspeed"></div>
+    <div class="speed_div" id="Lspeed"></div>
+    <div class="speed_div" id="Mspeed"></div>
+    <div class="speed_div" id="Sspeed"></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
