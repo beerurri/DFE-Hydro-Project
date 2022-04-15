@@ -6,4 +6,4 @@ In the <code>/scr</code> folder you can find the <code>main.cpp</code> file, whi
 <code>data</code> folder includes files for frontend: WEB-page <code>index.html</code>, JavaScript-file <code>script.js</code> for displaying experiment data in real-time and <code>style.css</code> with styles.
 Header file <code>filters.h</code> for 'filters' C++ class is in <code>/include</code> folder.
 ____
-[Plotly.js open-source graphic library](https://plotly.com/javascript/) is used for displaying plots and histograms.
+[Plotly.js open-source graphing library](https://plotly.com/javascript/) is used for displaying plots and histograms.
